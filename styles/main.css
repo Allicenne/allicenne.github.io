@@ -40,6 +40,8 @@ main {
 }
 main h3 {
     font-size: 105%;
+    margin: 3em 2em 1.5em;
+    border: 5px double blue;
 }
 main nav {
     font-size: 105%
