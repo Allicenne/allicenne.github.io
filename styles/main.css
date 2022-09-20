@@ -44,7 +44,11 @@ main h3 {
     border: 5px double blue;
 }
 main nav {
-    font-size: 105%
+    font-size: 105%;
+    margin: 1.5em 2em 1.5em;
+}
+main div.contact{
+    margin: 1.5em 2em 0em 2em;
 }
 #list{
     line-height: 1.5em
