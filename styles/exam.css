@@ -11,3 +11,25 @@ article img{
     margin-right:1em;
     margin-bottom:1em;
 }
+body{
+    background-color: aqua;
+    padding-left: ;
+    padding-top: ;
+    padding-bottom: ;
+    padding-right: ;
+    width: 95%;
+    margin: 15px auto;
+}
+article{
+    width: 75%;
+}
+aside{
+    width: 25%;
+    appearance: fixed
+}
+aside ol{
+    list-style-type: upper-roman;
+}
+aside ul{
+    list-style-type: square;
+}
