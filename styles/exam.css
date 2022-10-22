@@ -76,6 +76,7 @@ aside{
     position: fixed;
     bottom: 70%;
     right: 0%; 
+    background-attachment: fixed;
     
 }
 aside ol{
