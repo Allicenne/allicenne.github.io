@@ -1,4 +1,6 @@
-
+html{
+    background-image: linear-gradient(to left, white 0%,lightblue 100%);
+}
 
 article p::first-letter{
     font-size: 3em;
@@ -13,23 +15,76 @@ article img{
 }
 body{
     background-color: aqua;
-    padding-left: ;
-    padding-top: ;
-    padding-bottom: ;
-    padding-right: ;
+    padding: 15px 1.5em;
     width: 95%;
     margin: 15px auto;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 100%;
+    border: 1px solid black;
+    border-radius: 25px;
+    box-shadow:5px 5px 0 0;
 }
 article{
     width: 75%;
+    clear: left;
+    float: left;
+    column-count: 3;
+    column-rule: 3px dotted blue;
+    column-gap: 2px;
+    margin-left: 2em;
+    display: block;
 }
 aside{
     width: 25%;
-    appearance: fixed
+    appearance: fixed;
+    float: right;
+    padding: .1em 1em 1em;
+    border: 2px solid blue;
+    
 }
 aside ol{
     list-style-type: upper-roman;
 }
 aside ul{
     list-style-type: square;
+}
+#nav-menu ul{
+    list-style-type: none;}
+#nav-menu ul li{
+    float: left;}
+#nav-menu ul li a{
+    text-align: center;
+    display: block;
+    width: 175px;
+    padding: 1em 0;
+    background-color: blue;
+    color:aliceblue;
+    text-decoration: none;
+    font-weight: bold;
+    border-right: 2px solid white;
+}
+#nav-menu ul li a.lastitem{
+    border-right: none;
+}
+#nav-menu ul li a.current{
+    color: yellow;
+}
+#nav-menu{
+    display: block;
+    float: top;
+}
+header{
+    color: blue;
+    border-top: 2px solid blue;
+}
+article h1{
+    color: blue;
+}
+article h2{
+    color: blue;
+}
+footer{
+    clear: both;
+    border-top: 2px solid blue;
+    text-align: center;
 }
