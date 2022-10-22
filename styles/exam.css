@@ -41,7 +41,7 @@ header{
 }
 #nav-menu{
     display: block;
-    float: top;
+    float: left;
 }
 article{
     width: 75%;
