@@ -37,7 +37,7 @@ article{
 aside{
     width: 25%;
     appearance: fixed;
-    float: right;
+    float: right top;
     padding: .1em 1em 1em;
     border: 2px solid blue;
     
