@@ -71,10 +71,11 @@ article h2{
 }
 aside{
     width: 25%;
-    float: right top;
     padding: .1em 1em 1em;
     border: 2px solid blue;
-    position: fixed; 
+    position: fixed;
+    bottom: 70%;
+    right: 0%; 
 }
 aside ol{
     list-style-type: upper-roman;
