@@ -65,6 +65,7 @@ article p::first-letter{
 }
 article h1{
     color: blue;
+    column-span: all;
 }
 article h2{
     color: blue;
