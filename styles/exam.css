@@ -1,10 +1,23 @@
 html{
     background-image: linear-gradient(to left, white 0%,lightblue 100%);
 }
+body{
+    background-color: white;
+    padding: 15px 1.5em;
+    width: 95%;
+    margin: 15px auto;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 100%;
+    border: 1px solid black;
+    border-radius: 25px;
+    box-shadow:5px 5px 0 0;
+}
 #nav-menu ul{
-    list-style-type: none;}
+    list-style-type: none;
+}
 #nav-menu ul li{
-    float: left;}
+    float: left;
+}
 #nav-menu ul li a{
     text-align: center;
     display: block;
@@ -22,30 +35,13 @@ html{
 #nav-menu ul li a.current{
     color: yellow;
 }
+header{
+    color: blue;
+    border-top: 2px solid blue;
+}
 #nav-menu{
     display: block;
     float: top;
-article p::first-letter{
-    font-size: 3em;
-    font-weight: bold;
-    font-style: italic;
-}
-
-article img{
-    float:left;
-    margin-right:1em;
-    margin-bottom:1em;
-}
-body{
-    background-color: white;
-    padding: 15px 1.5em;
-    width: 95%;
-    margin: 15px auto;
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 100%;
-    border: 1px solid black;
-    border-radius: 25px;
-    box-shadow:5px 5px 0 0;
 }
 article{
     width: 75%;
@@ -57,31 +53,34 @@ article{
     margin-left: 2em;
     display: block;
 }
-aside{
-    width: 25%;
-    appearance: fixed;
-    float: right top;
-    padding: .1em 1em 1em;
-    border: 2px solid blue;
-    
+article img{
+    float:left;
+    margin-right:1em;
+    margin-bottom:1em;
 }
-aside ol{
-    list-style-type: upper-roman;
-}
-aside ul{
-    list-style-type: square;
-}
-
-}
-header{
-    color: blue;
-    border-top: 2px solid blue;
+article p::first-letter{
+    font-size: 3em;
+    font-weight: bold;
+    font-style: italic;
 }
 article h1{
     color: blue;
 }
 article h2{
     color: blue;
+}
+aside{
+    width: 25%;
+    appearance: fixed;
+    float: right top;
+    padding: .1em 1em 1em;
+    border: 2px solid blue; 
+}
+aside ol{
+    list-style-type: upper-roman;
+}
+aside ul{
+    list-style-type: square;
 }
 footer{
     clear: both;
